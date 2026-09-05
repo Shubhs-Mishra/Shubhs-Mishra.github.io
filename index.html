@@ -1,77 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shubham Mishra</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favcon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-    rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shubham Mishra — Full Stack Engineer</title>
+<meta name="description" content="Full Stack Engineer with 3.5+ years building scalable web applications with Laravel, Vue.js and MySQL — plus LLM integrations, speech-to-text pipelines and multi-tenant authentication.">
+<meta name="author" content="Shubham Mishra">
+<meta name="theme-color" content="#1f2328">
+
+<!-- Open Graph / social share cards -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shubhs-mishra.github.io/">
+<meta property="og:title" content="Shubham Mishra — Full Stack Engineer">
+<meta property="og:description" content="Laravel, Vue.js and MySQL at the core — plus LLM integrations, speech-to-text pipelines and centralised auth across multi-tenant architectures.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@Shubhs1011">
+<!--
+  OG SHARE IMAGE — disabled until you have an image to use.
+  This is what shows as the preview when the link is pasted into
+  LinkedIn / WhatsApp / Slack. Ideal size is 1200x630.
+  To enable: drop the file in assets/ and uncomment the line below.
+
+  <meta property="og:image" content="https://shubhs-mishra.github.io/assets/og-card.png">
+-->
+
+<link rel="icon" href="assets/favicon.ico">
+<link rel="canonical" href="https://shubhs-mishra.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-pic">
-    <h1>I'm Shubham.</h1>
-    <h2>
-      A developer
-    </h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-pic">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="dp" src="images/res1-modified.png" alt="Shubham's img">
-      <h2>Hello.</h2>
-      <p>I am a Student and I'm pretty good in Web devolopment. I want to be a Googler ❤️.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
 
-      <h4> Click on the below buttons to know more about my skills.</h4>
+<a class="skip" href="#work">Skip to content</a>
+
+<div class="top">
+  <div class="wrap">
+
+    <nav class="topnav" aria-label="Primary">
+      <a class="mark" href="#top">SHUBHAM MISHRA<span>.</span></a>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#toolkit">Toolkit</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Full Stack Engineer · 3.5+ years</p>
+        <h1>I build the systems<br>other systems <em>talk to</em>.</h1>
+        <p class="lede">Laravel, Vue.js and MySQL at the core — plus the AI layer on top: <strong>LLM integrations</strong>, <strong>speech-to-text pipelines</strong>, and centralised authentication across multi-tenant architectures. Currently building call intelligence for a UK energy brokerage.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:shubham.m7336@gmail.com">Get in touch</a>
+          <a class="btn btn-ghost" href="assets/Shubham-Mishra-CV.pdf">Download CV</a>
+        </div>
+      </div>
+
+      <!-- ==================================================================
+           PROFILE PHOTO : currently switched off.
+
+           TO TURN IT BACK ON:
+             1. Put your new photo in  assets/  (e.g. assets/portrait.jpg),
+                or use any hosted image URL.
+             2. Point the src="" below at it.
+             3. Delete the two lines below that say DELETE_THIS_LINE.
+
+           That's it. The hero switches to a two column layout on its own,
+           no CSS changes needed (see the .hero:has(.portrait) rule in
+           styles.css). Best results with a portrait orientation image,
+           roughly 840x1000 or larger. Keep the alt text.
+           ================================================================== -->
+
+      <!-- DELETE_THIS_LINE
+      <div class="portrait">
+        <img src="assets/portrait.jpg" alt="Shubham Mishra" width="420" height="500">
+      </div>
+      DELETE_THIS_LINE -->
+
+    </header>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>3.5+</b><span>years shipping production software</span></div>
+    <div class="stat"><b>4&times;</b><span>faster APIs — 2s down to &lt;500ms</span></div>
+    <div class="stat"><b>500+</b><span>employees on systems I built</span></div>
+    <div class="stat"><b>100+</b><span>pull requests reviewed &amp; tested</span></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section class="body-sec" id="work" aria-labelledby="work-h">
+    <h2>Experience</h2>
+    <p class="sec-title" id="work-h">Where I've been shipping.</p>
+
+    <article class="job">
+      <div class="when">Jul 2026 — Present<b>Remunance</b></div>
       <div>
-        <button class="chessPlayer skill">CHESS</button>
-        <button class="coderBtn skill">CODER</button>
+        <h3>Full Stack Engineer</h3>
+        <p class="where">Client: Purely Energy — UK Energy Brokerage</p>
+        <ul>
+          <li>Re-architected the <strong>central authentication layer serving 3+ applications</strong> (CRM, customer site, admin panel) to embed granular permissions in JWT tokens — changes propagate in real time, ending manual re-seeding.</li>
+          <li>Integrated <strong>RingCentral telephony with an OpenAI Whisper</strong> speech-to-text pipeline to auto-transcribe sales calls, adding local <strong>speaker diarization</strong> to attribute dialogue between agents and customers.</li>
+          <li>Built <strong>LLM-powered call intelligence</strong> — summaries, key-detail extraction and callback detection that auto-creates events via an in-house calendar integration.</li>
+          <li>Developed contract and price-request workflows for electricity meters, handling supplier-to-customer mediation logic.</li>
+          <li>Built partner invitation and onboarding flows plus dashboards surfacing supplier deal-win performance.</li>
+          <li>Redesigned core pages for better information hierarchy and resolved production defects to improve stability.</li>
+        </ul>
       </div>
-      <!--  -->
-      <div class="skill-row" id="chess">
-        <img class="chess" src="images/chess-piece.png" alt="">
-        <h3>Chess Lover</h3>
-        <p>I am a decent chess player and I am trying to improve my game as much as I can.</p>
+    </article>
+
+    <article class="job">
+      <div class="when">Sep 2024 — Apr 2026<b>Appfoster Innovations</b></div>
+      <div>
+        <h3>Software Engineer</h3>
+        <p class="where">Greater Noida, India</p>
+        <ul>
+          <li>Co-led <strong>CloudHR</strong> as the sole engineer on development — architecture, schema design and LLM-based feature delivery end to end.</li>
+          <li>Optimised <strong>30+ API endpoints</strong>, cutting average response times from <strong>2s to under 500ms</strong>.</li>
+          <li>Automated 50+ monthly HR letters (<strong>&minus;80%</strong> prep time); built a centralised mailing system (<strong>&minus;60%</strong> turnaround).</li>
+          <li>Built attendance and geo-fencing used by <strong>500+ employees</strong>, plus payroll deduction workflows for TDS, PF, PT and statutory compliance.</li>
+          <li>Automated leave allocation and holiday management workflows, eliminating manual assignments.</li>
+          <li>Integrated DSCO and ShippingEasy, <strong>doubling order fulfilment speed</strong>.</li>
+          <li>Directed development for a <strong>4-member team</strong>, reviewing and testing <strong>100+ pull requests</strong>.</li>
+        </ul>
       </div>
-      <div class="skill-row" id="coder">
-        <img class="Coder" src="images/binary-code.png" alt="">
-        <h3>Wanna be coder</h3>
-        <p class="coder-description">I'm trying to improve my Coding skills. Also I am trying to improve my problem
-          solving skill as well.</p>
+    </article>
+
+    <article class="job">
+      <div class="when">Mar 2023 — Aug 2024<b>Appfoster Innovations</b></div>
+      <div>
+        <h3>Associate Software Engineer</h3>
+        <p class="where">Greater Noida, India</p>
+        <ul>
+          <li>Delivered <strong>50+ Vue.js components</strong> and <strong>100+ REST APIs</strong> across leave, attendance, payroll and employee management.</li>
+          <li>Built a gaming backend with <strong>Stripe subscriptions</strong>, improving payment reliability.</li>
+          <li>Developed an admin panel for game content and user interaction management.</li>
+        </ul>
       </div>
-      <!--  -->
+    </article>
+  </section>
+
+  <section class="body-sec" id="projects" aria-labelledby="proj-h">
+    <h2>Projects</h2>
+    <p class="sec-title" id="proj-h">Two I'd happily be quizzed on.</p>
+    <div class="bento">
+      <article class="cell wide">
+        <p class="kicker">Multi-tenant SaaS</p>
+        <h3>CloudHR — HRMS Platform</h3>
+        <p>Onboarding, leave, attendance and payroll for many organisations from a single codebase. A dynamic template engine generates HR documents automatically — <span class="metric">50+ letters a month</span> that used to be written by hand.</p>
+        <ul class="tags"><li>Laravel</li><li>Vue.js</li><li>MySQL</li><li>Multi-tenancy</li><li>LLM</li></ul>
+      </article>
+      <article class="cell wide">
+        <p class="kicker">Systems integration</p>
+        <h3>Chewy Middleware</h3>
+        <p>Keeps orders, inventory and returns in sync in real time between DSCO and ShippingEasy. Swapping batch reconciliation for event-driven sync <span class="metric">doubled processing speed</span>.</p>
+        <ul class="tags"><li>Laravel</li><li>REST APIs</li><li>Webhooks</li><li>DSCO</li></ul>
+      </article>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2 class="contact"><strong>Get In Touch</strong></h2>
-      <h3><strong>If you want to collab on some web dev project.</strong></h3>
-      <p>We can make project together by learning new things from each other, I am sure you'll be able to learn a few
-        new things from me.</p>
-      <a class="btn" href="mailto:thekrishna1995@gmail.com">CONTACT ME</a>
+  </section>
+
+  <section class="body-sec" id="toolkit" aria-labelledby="tool-h">
+    <h2>Toolkit</h2>
+    <p class="sec-title" id="tool-h">What I reach for.</p>
+    <div class="bento">
+      <article class="cell dark third">
+        <h4>AI &amp; Integrations</h4>
+        <p class="list">LLM integrations · OpenAI Whisper (speech-to-text) · Speaker diarization · RingCentral · Stripe · Firebase FCM</p>
+      </article>
+      <article class="cell third"><h4>Languages</h4><p class="list">PHP · JavaScript · Python · SQL</p></article>
+      <article class="cell third"><h4>Frameworks</h4><p class="list">Laravel · Vue.js · React · Tailwind CSS · Bootstrap · PHPUnit</p></article>
+      <article class="cell third"><h4>Databases</h4><p class="list">MySQL · PostgreSQL · MongoDB · SQLite</p></article>
+      <article class="cell third"><h4>Tools &amp; Platforms</h4><p class="list">Git · GitHub Actions · Docker · Postman · Figma</p></article>
+      <article class="cell third"><h4>Education</h4><p class="list">B.Tech, Information Technology<br>Dr. A.P.J. Abdul Kalam Technical University, 2019–2023</p></article>
+      <article class="cell wide"><h4>Core Strengths</h4><p class="list">REST API development · Authentication &amp; authorisation (JWT/SSO) · Multi-tenant &amp; multi-application architecture · Queue jobs · Performance optimisation · State management (Pinia) · Production debugging &amp; root-cause analysis</p></article>
+      <article class="cell wide"><h4>Beyond code</h4><p class="list">A decent chess player, still trying to be a better one. It's the same instinct as debugging — sit with the position long enough to see what's actually happening before you touch anything.</p></article>
+    </div>
+  </section>
+
+</main>
+
+<section class="contact" id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <h3 id="contact-h">Let's build something.</h3>
+    <p>Happy to talk backend architecture, AI-assisted product features, or whatever you're currently stuck on.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:shubham.m7336@gmail.com">shubham.m7336@gmail.com</a>
+      <a class="btn btn-ghost" href="assets/Shubham-Mishra-CV.pdf">Download CV</a>
     </div>
   </div>
+</section>
 
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/shubhs10">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/Shubhs-Mishra">Github</a>
-    <a class="footer-link" href="https://twitter.com/Shubhs1011">twitter</a>
-
-    <p class="footer">© 2022 Shubham Mishra.</p>
+<footer>
+  <div class="wrap foot-in">
+    <p>&copy; <span id="year">2026</span> Shubham Mishra</p>
+    <div class="socials">
+      <a href="https://github.com/Shubhs-Mishra" rel="me noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/shubhs10" rel="me noopener">LinkedIn</a>
+      <a href="https://twitter.com/Shubhs1011" rel="me noopener">Twitter</a>
+    </div>
   </div>
+</footer>
+
+<script src="main.js" defer></script>
 </body>
-<script src="./main.js"></script>
-
 </html>
